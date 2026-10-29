@@ -1,0 +1,50 @@
+# Dependencies and frontend build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# .NET build, publish and test output
+bin/
+obj/
+TestResults/
+coverage/
+.nyc_output/
+/backend/wwwroot/
+/artifacts/
+*.zip
+
+# Local configuration, credentials and publishing profiles
+.env
+.env.*
+!.env.sample
+*.local.json
+appsettings.Local.json
+secrets.json
+credentials.json
+*.pfx
+*.p12
+*.pem
+*.key
+*.publishsettings
+*.pubxml
+*.pubxml.user
+.azure/
+.copilot-azure/
+
+# Uploaded documents and temporary/runtime data
+uploads/
+*.pdf
+logs/
+*.log
+*.tmp
+*.bak
+
+# Local editor and operating-system files
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
